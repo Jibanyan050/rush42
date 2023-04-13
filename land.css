@@ -67,11 +67,3 @@ body {
     display: block;
   }
 
-y {
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    background: antiquewhite;
-}

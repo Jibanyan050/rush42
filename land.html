@@ -6,7 +6,7 @@
     <title>Automatic Background Change</title>
     <style>
       body {
-        background-size: cover;
+        background-size: 20%;
         background-position: center;
         transition: background-image 1s ease-in-out;
       }
@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="land.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
     <div class="navbar">
       <a href="#home">Home</a>
       <a href="#news">News</a>
@@ -27,18 +26,12 @@
         </div>
       </div>
     </div>
-    <script>
-      const images = [
-        "https://www.un.org/development/desa/disabilities/wp-content/uploads/sites/15/2019/07/E-SDGs-Poster-801x476.png",
-        "https://www.floraandfauna.com.au/media/wysiwyg/What-Are-The-17-Sustainable-Development-Goals.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb-WKfq8ejlr611Q6yW5A5Mj-FQeie3ElzkQ&usqp=CAU"
-      ];
-      let currentImageIndex = 0;
-      function changeBackground() {
-        currentImageIndex = (currentImageIndex + 1) % images.length;
-        document.body.style.backgroundImage = "url('" + images[currentImageIndex] + "')";
-      }
-      setInterval(changeBackground, 5000);
-    </script>
+    <div class="maintitle">
+      <h2>test</h2>
+
+    </div>
+    <script src="landingpage.js"></script>
+
+ 
   </body>
 </html>

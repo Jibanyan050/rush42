@@ -30,6 +30,7 @@ td {
 .dropdown {
   float: left;
   overflow: hidden;
+  z-index: 2;
 }
 
 .dropdown .dropbtn {
@@ -79,7 +80,6 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
   height: 500px;
   width: 600px;
   margin: 0;
@@ -90,9 +90,11 @@ td {
 }
 
 .image {
+  top: 150px;
+  left: 0;
   position: relative;
   width: 500px;
-  height: 1000px;
+  height: 750px;
 }
 
 .image>img {

@@ -1,5 +1,6 @@
+/* Default styles for all screen sizes */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-size: cover;
   background-position: center;
   transition: background-image 1s ease-in-out;
@@ -94,7 +95,7 @@ td {
   left: 0;
   position: relative;
   width: 500px;
-  height: 750px;
+  height: 1000px;
 }
 
 .image>img {

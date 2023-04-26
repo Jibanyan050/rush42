@@ -14,3 +14,12 @@ const images = [
   
   setInterval(changeBackground, 5000);
   
+function openJustice() {
+  let source = "ADD YOUR BROWSER HYPERLINK HERE, EXAMPLE SEEN BELOW";
+  window.open(source);
+}
+
+function openEducation() {
+  let source = "http://127.0.0.1:3000/discovery_piscine/rush1/landingpage.html";
+  window.open(source);
+}

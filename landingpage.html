@@ -1,45 +1,46 @@
 <!doctype html>
 <html lang="en">
+<!--Linking to stylesheet-->
  <link rel="stylesheet" href="landingpage.css">
   <head>
     <meta charset="utf-8">
     <title>Automatic Background Change</title>
-    <style>
-      body {
-        background-size: 20%;
-        background-position: center;
-        transition: background-image 1s ease-in-out;
-      }
-    </style>
   </head>
   <body>
+  <!--Navbar stuff-->
     <div class="navbar">
-      <a href="LINK_TO_LANDING_PAGE">Home</a>
+  <!--Home button, connects to landing page-->
+      <a href="file:///Users/42adel-dp-01/discovery_piscine/FirstProject/landingpage.html">Home</a>
+  <!--UN source that gives updates on the state of the world-->
       <a href="https://www.asc-aqua.org/wp-content/uploads/2022/12/ASC-SDG-Report-2022-1.pdf">News</a>
       <div class="dropdown">
+  <!--A dropdown menu to link to a variety of sources, also used as a temporary link to personal page with Edu. and Inequ.-->
         <button class="dropbtn">UN goals</button>
         <div class="dropdown-content">
-          <a href="https://sdgs.un.org/goals">UN goals website</a>
+          <a src="https://sdgs.un.org/goals">UN goals website</a>
           <a href="https://sdgs.un.org/goals/goal4">Education</a>
           <a href="https://sdgs.un.org/goals/goal10">Reduced Inequalites</a>
         </div>
       </div>
     </div>
+  <!--Where the images/links are stored-->
     <div class="maintitle">
       <table>
+  <!--Using tables to position the images-->
       <td class="image">
-        <img src="IMAGE" alt="What is quality education image" onclick="openEducation">
-        <img src="IMAGE" alt="Quality education image" onclick="openEducation">
-        
+          <img src="justice.png" alt="What is quality education image" onclick="openJustice()">
+          <img src="justice2.png" alt="Quality education image" onclick="openJustice()">
       </td>
       <td class="image">
-        <img src="IMAGE" alt="What is reduced inequalities" onclick="openJustice">
-        <img src="IMAGE" alt="Reduced Inqualites" onclick="openJustice"> 
-        
+
+          <img src="education.png" onclick="openEducation()">
+          <img src="educationagain.png" alt="Reduced Inqualites" onclick="openEducation()">
       </td>
         </table>
+        
     </div>
     </div>
+<!--Javascript link-->
     <script src="landingpage.js"></script>
 
  
